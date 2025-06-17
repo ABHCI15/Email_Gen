@@ -60,7 +60,7 @@ prompttemplate = ChatPromptTemplate.from_messages(
 )
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-exp-1206",
+    model="gemini-2.5-flash-preview-05-20",
     temperature=0.3,
     max_tokens=8192,
     api_key=st.secrets["api_key"]
